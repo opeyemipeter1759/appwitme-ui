@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Homepage from '../src/component/container/homepage'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <p>hi hi</p>
+    <Homepage/>
     </div>
   );
 }
