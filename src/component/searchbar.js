@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React, from 'react';
 // dependencies
-import Modal from '../component/Modal';
 
 // // icons
 import { AiOutlineSearch } from 'react-icons/ai'
@@ -13,7 +12,7 @@ import './searchbar.scss'
 
 
 
-function SearchBar( {setShow, show, closeModalHandler}) {
+function SearchBar( {setShow}) {
   return (
       
 
