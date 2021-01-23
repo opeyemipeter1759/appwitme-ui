@@ -1,35 +1,34 @@
 import React from 'react'
 import App from '../img/App.png'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import './Navbar.scss'
 import Login from '../login'
 import Signup from '../signup'
 
 
-function Navbar (){
 
-    return (
-
-      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </div>
-    </div>
-  </div>
-</nav>
+function Navbrand (){
+ return (
+  <Navbar bg="" expand="lg" className="brand">
+  <Navbar.Brand href="/">  <img src={App} width="40" height="40" class="d-inline-block align-top" alt=""/><span className="brand-name">Appwitme</span></Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="ml-auto">
+      <Nav.Link href="#Login">
+      <Login/>
+       </Nav.Link>
+      <Nav.Link href="#Signup">
+      <Signup/>
+          </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
     )
+
   }
+ 
  
 
 
-
-export default Navbar
+export default Navbrand

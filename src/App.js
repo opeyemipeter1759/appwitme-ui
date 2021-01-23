@@ -1,12 +1,15 @@
 import React from 'react'
-import Homepage from '../src/component/container/homepage'
+import Navbar from '../src/component/container/Navbar'
+
 
 
 function App() {
   return (
     <div className="App">
-    <Homepage/>
+       <Navbar/>
     </div>
+   
+  
   );
 }
 
