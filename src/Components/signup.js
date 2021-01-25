@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, Modal } from "react-bootstrap";
 import "./signup.styles.scss";
 import App from "../img/App.png";
-import Login from "./login";
+// import Login from "./login";
 
 class Signup extends Component {
 	constructor() {
