@@ -1,18 +1,14 @@
-
-import HomePage from './container/HomePage'
-import Carousel from './components/CarouselItem'
+import "./App.css";
+import HomePage from "../src/Containers/HomePage";
+import NavBar from "./Containers/NavBar";
 
 function App() {
 	return (
-		<div className="">
-      <p className="name">
-      </p>
-      <HomePage/>
-      <Carousel/>
+		<div>
+			<NavBar />
+			<HomePage />
 		</div>
 	);
 }
-
-
 
 export default App;
