@@ -1,16 +1,16 @@
-import React from 'react'
-import Navbar from '../src/component/container/Navbar'
-
-
+import "./App.css";
+import HomePage from './container/HomePage'
 
 function App() {
-  return (
-    <div className="App">
-       <Navbar/>
-    </div>
-   
-  
-  );
+	return (
+		<div className="">
+      <p className="name">
+      </p>
+      <HomePage/>
+		</div>
+	);
 }
+
+
 
 export default App;
