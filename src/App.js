@@ -1,5 +1,6 @@
-import "./App.css";
+
 import HomePage from './container/HomePage'
+import Carousel from './components/CarouselItem'
 
 function App() {
 	return (
@@ -7,6 +8,7 @@ function App() {
       <p className="name">
       </p>
       <HomePage/>
+      <Carousel/>
 		</div>
 	);
 }
