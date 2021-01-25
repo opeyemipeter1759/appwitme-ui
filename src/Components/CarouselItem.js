@@ -20,7 +20,7 @@ function CarouselItem() {
     <Carousel.Caption>
       <p>Get your business 
         <br/>listed today on 
-        <br/><img src={image7}/> </p>
+        <br/><img src={image7} alt="logo"/> </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
