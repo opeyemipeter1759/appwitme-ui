@@ -16,7 +16,7 @@ function SearchBar( {setShow}) {
   return (
       
 
-    <div className="container row searchBar">
+    <div className=" row searchBar">
        <span className="leftSide"onClick={() => setShow(true)}  >
           <IoFilterSharp className="filterIcon"/>
         </span>
@@ -29,12 +29,7 @@ function SearchBar( {setShow}) {
         </div>
      <span className="rightSide ">
       <BiBarcodeReader className="barIcon"/>
-     </span> 
-   
-
-    
-    
-    
+     </span>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import "./userpage.scss";
 import userimg3 from "../img/img2.jpg";
 function UserPage() {
 	return (
-		<div>
+		
 			<div className="card mt-3">
 				<div className="card-body row">
 					<span className="col-5">
@@ -20,7 +20,7 @@ function UserPage() {
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	);
 }
 
