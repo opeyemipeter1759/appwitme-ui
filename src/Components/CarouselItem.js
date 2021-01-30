@@ -9,8 +9,8 @@ import './CarouselItem.scss'
 
 function CarouselItem() {
     return (
-        <div class="container-fluid">
-            <Carousel>
+        <div class="carouselBody col-md-8 col-sm-12 col-12 col-lg-8">
+<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100 image1"
@@ -31,7 +31,7 @@ function CarouselItem() {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3></h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -42,7 +42,7 @@ function CarouselItem() {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3></h3>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

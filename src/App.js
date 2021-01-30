@@ -4,7 +4,7 @@ import NavBar from "./Containers/NavBar";
 
 function App() {
 	return (
-		<div>
+		<div className="container-fluid">
 			<NavBar />
 			<HomePage />
 		</div>

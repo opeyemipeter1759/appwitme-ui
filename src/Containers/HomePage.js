@@ -3,7 +3,7 @@ import BusinessLandingPage from "./BusinessLandingPage";
 
 function HomePage() {
 	return (
-		<div>
+		<div className="container-fluid">
 			<BusinessLandingPage />
 		</div>
 	);

@@ -8,7 +8,7 @@ function BusinessUser() {
 	const closeModalHandler = () => setShow(false);
 	return (
 		<div>
-			<div>
+			<div className="col-md-4 col-sm-12 col-12 col-lg-4 ">
 				{show ? (
 					<div onClick={closeModalHandler} className="dropDown"></div>
 				) : null}
